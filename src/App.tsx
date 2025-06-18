@@ -1,14 +1,7 @@
-import Header from './components/Header';
-import Footer from './components/Footer';
+import TemplateApp from "./TemplateApp";
 
-export default function App() {
-    return (
-        <>
-            <Header />
-            <main>
-                <p>Main Content.</p>
-            </main>
-            <Footer />
-        </>
-    )
-};
+const App = () => {
+    return <TemplateApp />
+}
+
+export default App
