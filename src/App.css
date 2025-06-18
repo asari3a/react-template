@@ -1,3 +1,8 @@
 body {
     padding-top: 56px;
+    padding-bottom: 56px;
+}
+
+.container {
+  max-width: none;
 }
